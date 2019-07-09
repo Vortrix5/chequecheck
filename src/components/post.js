@@ -1,13 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar"
-import Test from "./imgUploader"
+import ReactiveQR from "reactive-qr";
 const post = () => {
   return (
       <>
       <Navbar/>
       <center>
-        <Test/>
-
+        <ReactiveQR onCode={code => console.log(code)} />
       </center>
       </>
 
