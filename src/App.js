@@ -16,10 +16,12 @@ import Error from './components/error'
 import React from 'react';
 import './App.css';
 import Test from "./components/imgUploader";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
   <>
+  <Navbar/>
 <BrowserView>
     <h1> This is rendered only in browser </h1>
 </BrowserView>
